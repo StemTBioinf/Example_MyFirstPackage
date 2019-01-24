@@ -1,0 +1,22 @@
+Package: MyFirstPackage
+Title: Handle tabular biological expression data, create heatmaps and 3D TSNE plots
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Stefan",
+           family = "Lang",
+           role = c("aut", "cre"),
+           email = "Stefan.Lang@med.lu.se")
+Description: This package is a test package for teaching a simple version of the R S4 class system. It still uses the S3 function system.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat
+Depends:
+    methods,
+    stats,
+    utils,
+    pheatmap,
+    rgl,
+    Rtsne
